@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="bootstrap-framework/css/bootstrap.min.css" rel="stylesheet">
-    <title>Hello, world!</title>
+    <title>Login Admin Buku Tamu Diskominfo Prov. Kalsel</title>
 </head>
 
 <body>
