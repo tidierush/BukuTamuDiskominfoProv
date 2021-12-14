@@ -2,11 +2,11 @@
 $host="localhost"; // biasanya localhost
 $username="root";
 $password="";
-$db="login"; 
+$db="user"; 
  
  
-mysqli_connect("$host", "$username", "$password")or die("Failed to connect! Check database");
-mysqli_select_db("$db")or die("Contact your administrator fot this!");
+$connection = mysqli_connect("$host", "$username", "$password")or die("Failed to connect! Check database");
+mysqli_select_db("$db", $connection) or die("Contact your administrator fot this!");
  
 // mengambil data username dan password dari index.php
 // bila form method nya GET maka ganti POST menjadi GET

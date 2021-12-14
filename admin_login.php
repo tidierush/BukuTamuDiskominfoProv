@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="bootstrap-framework/css/bootstrap.min.css" rel="stylesheet">
+    <link href="framework/css/bootstrap.min.css" rel="stylesheet">
     <title>Login Admin Buku Tamu Diskominfo Prov. Kalsel</title>
 </head>
 
@@ -13,10 +13,10 @@
         <img class="mb-2" src="LogoDiskominfo.png" alt="" width="84" height="127">
         <h1>ADMINISTRASI DATA BUKU TAMU DINAS KOMUNIKASI DAN INFORMATIKA PROVINSI KALIMANTAN SELATAN</h1>
     </div>
-    <form class="col-3 mx-auto mt-4 justify-content-center" method="post" action="admin_login_process.php">
+    <form class="col-3 mx-auto mt-4 justify-content-center" method="post" action="function/process_admin_login.php">
         <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Nama Pengguna</label>
-            <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="exampleInputUsername" class="form-label">Nama Pengguna</label>
+            <input type="username" name="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Sandi</label>
